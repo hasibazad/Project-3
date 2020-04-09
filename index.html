@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take a quiz</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Comic+Neue&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+<form id="theQuizContainer" name="theQuizeContainer">
+
+    <p>what is the capital of Canada?</p>
+    <input type="radio" id="choice" name="Question1" value="Toronto">Toronto <br>
+    <input type="radio" id="choice" name="Question1" value="Ottawa">Ottawa <br>
+    <input type="radio" id="choice" name="Question1" value="calgery">calgery<br>
+
+
+    <p>what is population of Canada?</p>
+    <input type="radio" id="choice" name="Question2" value="37.59 million">37.59 million<br>
+    <input type="radio" id="choice" name="Question2" value="35.95 million">35.95 million<br>
+    <input type="radio" id="choice" name="Question2" value="33.33 million">33.33 million<br>
+
+
+    <p>Who is the prime minister of Canada?</p>
+    <input type="radio" id="choice" name="Question3" value="Donald Trump">Donald Trump <br>
+    <input type="radio" id="choice" name="Question3" value="Justin Trudeau">Justin Trudeau<br>
+    <input type="radio" id="choice" name="Question3" value="Kim Jong-un">Kim Jong-un<br>
+
+    <p>What is the name of the longest street of Canada?</p>
+    <input type="radio" id="choice" name="Question4" value="King Street">King Street<br>
+    <input type="radio" id="choice" name="Question4" value="That street">That street<br>
+    <input type="radio" id="choice" name="Question4" value="Yonge street">Yonge street<br>
+
+    <p>When did Canada got its own flag?</p>
+    <input type="radio" id="choice" name="Question5" value="the year it became a country">the year it became a country<br>
+    <input type="radio" id="choice" name="Question5" value="20 years after it became a country">20 years after it became a country<br>
+    <input type="radio" id="choice" name="Question5" value="100 years after it became a country">100 years after it became a country<br>
+
+    <input type="button" name="button" id="button" value="Lets see!" onclick="check()">
+
+</form>
+
+<div id="afterSubmit">
+    <p id="message"></p>
+    <p id="correctAnswer"></p>
+    <img id="picture">
+</div>
+
+    
+</body>
+
+</html>
